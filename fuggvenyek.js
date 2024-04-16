@@ -19,7 +19,7 @@ export function romaiSzamAtvaltas(szam) {
         var eredmeny = "";
 
         for (let i = latinSzamok.length - 1; szam > 0; i--) {
-            console.log("Aktuális szám: " + szam);
+            //console.log("Aktuális szám: " + szam);
 
             while (szam >= latinSzamok[i]) {
                 eredmeny += romaiSzamok[i];
